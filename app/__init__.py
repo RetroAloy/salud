@@ -14,4 +14,7 @@ def create_app():
     from . import db
     db.init_app(app)
 
+    from . import controller
+    app.register_blueprint(controller.bp)
+
     return app
