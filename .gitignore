@@ -1,0 +1,8 @@
+ambiente/
+*.pyc
+__pycache__/
+instance/
+.env
+DCUG.jpg
+DCUG.uxf
+vision del cliente.txt
