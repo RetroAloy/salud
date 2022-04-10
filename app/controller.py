@@ -12,4 +12,4 @@ bp = Blueprint("controller", __name__, url_prefix='/')
 
 @bp.route("/", methods=['GET', 'POST'])
 def index():
-    return render_template('base.html')
+    return render_template('login/login.html')
